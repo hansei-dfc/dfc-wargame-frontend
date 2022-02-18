@@ -10,3 +10,8 @@ export const isLogin = atom({
     default: false,
 })
 
+export const whoami = atom({
+    key: 'name',
+    default: '',
+})
+
